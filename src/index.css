@@ -1,0 +1,59 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(assets/Roboto/Roboto-Regular.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(assets/Roboto/Roboto-Bold.ttf);
+    font-weight: 800;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    font-family: 'RobotoRegular';
+}
+
+h1,h2,h3,h4,h5 {
+    font-family : 'Roboto-Bold';
+}
+
+.track {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.track-image {
+    width: 250px;
+    height: 250px;
+}
+
+.track-text {
+    font-size: 18px;
+    position: absolute; 
+    width: 250px;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.track-icon {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.8;
+}
